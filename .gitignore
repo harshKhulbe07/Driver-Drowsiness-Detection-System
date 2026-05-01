@@ -69,3 +69,5 @@ dmypy.json
 *.weights.h5
 model_weights/
 checkpoints/
+models.zip
+*.zip

@@ -46,10 +46,11 @@ pip install -r requirements.txt
 ```
 
 ### 4. Download Model Weights
-Make sure you have these files placed directly in the project directory:
-- `eye_weights.weights.h5` - Pre-trained eye detection model
-- `yawn_weights.weights.h5` - Pre-trained yawn detection model
-- `alarm.wav` - Alert sound file
+Because the AI models are large binary files, they are not stored directly in the source code repository. 
+
+1. Go to the [Releases Page](https://github.com/harshKhulbe07/Driver-Drowsiness-Detection-System/releases) of this repository.
+2. Download the `models.zip` file from the latest release.
+3. Extract the zip file and place all three files (`eye_weights.weights.h5`, `yawn_weights.weights.h5`, and `alarm.wav`) directly into the main project folder.
 
 ## 🎮 Usage
 
